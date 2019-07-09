@@ -43,7 +43,6 @@ def initial_round
 end
 
 def hit?(card_total)
-  #puts deal_card
   # code hit? here
   prompt_user
   input = get_user_input
