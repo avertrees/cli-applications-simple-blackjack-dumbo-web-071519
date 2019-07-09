@@ -37,10 +37,13 @@ def initial_round
   # c2 = deal_card
   # puts c2
   # sum =  display_card_total(c1)
+  sum = 0
   2.times do 
-    puts deal_card
+    card = deal_card
+    sum += card
+    puts card
   end
-  #return
+  return sum
 end
 
 def hit?
