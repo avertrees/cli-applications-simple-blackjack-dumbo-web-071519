@@ -6,7 +6,7 @@ end
 def deal_card
   # code #deal_card here
   n = rand(11) + 1
-  #puts n 
+  puts n 
   return n
 end
 
