@@ -63,6 +63,7 @@ end
 def invalid_command
   # code invalid_command here
   puts "Please enter a valid command"
+  prompt_user
 end
 
 #####################################################
@@ -71,7 +72,13 @@ end
 
 def runner
   # code runner here
-  # welcome
+  welcome
+  total = initial_round
+  prompt_user
+  input = get_user_input
+  
+  hit?(initial_round)
+  
   # deal_card
   # display_card_total
   
