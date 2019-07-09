@@ -75,7 +75,7 @@ def runner
   # code runner here
   welcome
   hand = initial_round
-  prompt_user
+  #prompt_user
   while(hand <= 21)
     hand = hit?(hand)
     display_card_total(hand)
