@@ -45,7 +45,7 @@ end
 def hit?(card_total)
   # code hit? here
   prompt_user
-  
+  get_user_input
   input = get_user_input
   
   total = card_total
