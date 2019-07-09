@@ -32,10 +32,10 @@ end
 
 def initial_round
   # code #initial_round here
-  # c1 = deal_card
-  # puts c1
-  # c2 = deal_card
-  # puts c2
+  c1 = deal_card
+  puts c1
+  c2 = deal_card
+  puts c2
   # sum =  display_card_total(c1)
   sum = 0
   2.times do 
