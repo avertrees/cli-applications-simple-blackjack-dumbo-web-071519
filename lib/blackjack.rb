@@ -47,7 +47,7 @@ def initial_round
 end
 
 def hit?
-  puts deal_card
+  #puts deal_card
   # code hit? here
 end
 
