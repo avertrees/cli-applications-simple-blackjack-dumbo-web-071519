@@ -76,12 +76,13 @@ def runner
   welcome
   total = initial_round
   prompt_user
-  input = get_user_input
-  
-  hit?(initial_round)
-  display_card_total()
-  # deal_card
-  # display_card_total
-  
+  while(total <= 21)
+    total = hit?(initial_round)
+    
+    display_card_total()
+    # deal_card
+    # display_card_total
+  end
+  end_game
 end
     
