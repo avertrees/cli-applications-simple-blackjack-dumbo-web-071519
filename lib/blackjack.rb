@@ -43,7 +43,7 @@ def initial_round
     sum += card
     puts card
   end
-  return sum
+  return display_card_total(sum)
 end
 
 def hit?
