@@ -32,13 +32,14 @@ end
 
 def initial_round
   # code #initial_round here
-  c1 = deal_card
-  puts c1
-  c2 = deal_card
-  puts c2
-  sum =  display_card_total(c1+c2)
-  puts sum
-  return sum
+  # c1 = deal_card
+  # puts c1
+  # c2 = deal_card
+  # puts c2
+  # sum =  display_card_total(c1)
+  
+  puts deal_card
+  return deal_card
 end
 
 def hit?
