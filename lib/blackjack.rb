@@ -79,7 +79,7 @@ def runner
   while(total <= 21)
     total = hit?(initial_round)
     
-    display_card_total()
+    display_card_total(total)
     # deal_card
     # display_card_total
   end
