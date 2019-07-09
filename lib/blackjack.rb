@@ -41,5 +41,9 @@ end
 
 def runner
   # code runner here
+  # welcome
+  # deal_card
+  # display_card_total
+  
 end
     
