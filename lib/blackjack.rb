@@ -6,7 +6,7 @@ end
 def deal_card
   # code #deal_card here
   n = rand(11) + 1
-  puts n 
+  #puts n 
   return n
 end
 
@@ -32,11 +32,11 @@ end
 
 def initial_round
   # code #initial_round here
-  card1 = deal_card
-  puts card1
-  card2 = deal_card
-  puts card2
-  sum =  display_card_total(card1+card2)
+  c1 = deal_card
+  puts c1
+  c2 = deal_card
+  puts c2
+  sum =  display_card_total(c1+c2)
   puts sum
   return sum
 end
