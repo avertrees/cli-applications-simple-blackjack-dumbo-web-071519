@@ -42,13 +42,24 @@ def initial_round
   return sum
 end
 
-def hit?
+def hit?(card_total)
   #puts deal_card
   # code hit? here
+  prompt_user
+  input = get_user_input
+  if input = 'h'
+    card_total += deal_card
+    return card_total
+  elsif input = 's'
+    return card_total
+  else
+    return invalid_command
+  end
 end
 
 def invalid_command
   # code invalid_command here
+  puts "Please enter a valid command"
 end
 
 #####################################################
