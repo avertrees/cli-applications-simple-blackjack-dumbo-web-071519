@@ -3,7 +3,7 @@ def welcome
   puts "Welcome to the Blackjack Table"
 end
 
-def deal_card
+def #deal_card
   # code #deal_card here
   return rand(1..11)
 end
