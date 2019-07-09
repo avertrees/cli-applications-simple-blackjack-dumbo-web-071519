@@ -79,7 +79,7 @@ def runner
   input = get_user_input
   
   hit?(initial_round)
-  
+  display_card_total()
   # deal_card
   # display_card_total
   
