@@ -36,7 +36,7 @@ def initial_round
   2.times do 
     card = deal_card
     sum += card
-    puts card
+    puts sum
   end
   return display_card_total(sum)
 end
