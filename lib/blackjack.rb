@@ -37,8 +37,9 @@ def initial_round
   # c2 = deal_card
   # puts c2
   # sum =  display_card_total(c1)
-  
-  puts deal_card
+  2.times do 
+    puts deal_card
+  end
   #return
 end
 
