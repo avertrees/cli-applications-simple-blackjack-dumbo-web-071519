@@ -82,9 +82,9 @@ def runner
 
   end
   
-  if total > 21
-    end_game(hand)
-  end  
+
+  end_game(hand)
+ 
   
 end
     
