@@ -82,6 +82,9 @@ def runner
     # deal_card
     # display_card_total
   end
-  end_game
+  if total > 21
+    end_game
+  end  
+  
 end
     
