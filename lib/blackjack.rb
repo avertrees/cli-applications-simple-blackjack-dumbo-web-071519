@@ -57,7 +57,7 @@ def hit?(card_total)
     return invalid_command
     prompt_user
   end
-  display_card_total(total)
+  #display_card_total(total)
   return total
 end
 
@@ -78,7 +78,6 @@ def runner
   prompt_user
   while(total <= 21)
     total = hit?(initial_round)
-    
     display_card_total(total)
     # deal_card
     # display_card_total
